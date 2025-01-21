@@ -105,11 +105,23 @@ html[data-theme="light"] h1 a {
 	border: 0px;
 }
 
+.block-editor .absolute-modal {
+	background-color: var(--ls-tertiary-background-color);
+	border-color: var(--ls-border-color);
+}
+
+/* menu items */
 .menu-links-wrapper {
 	background-color: var(--ls-secondary-background-color);
 }
 .menu-links-wrapper a:hover {
 	background-color: var(--ls-primary-background-color);
+}
+
+/* search model hovered selection */
+.menu-link:hover,
+.menu-link.chosen {
+	background-color: var(--ls-selection-background-color) !important;
 }
 
 .bg-indigo-600 {
@@ -380,4 +392,3 @@ html[data-theme="light"] .cm-s-solarized.cm-s-dark .CodeMirror-gutters {
 #pdf-layout-container[data-theme="light"] .extensions__pdf-toolbar {
 	background: linear-gradient(0deg, rgba(246, 246, 246, 0) 10%, rgb(31, 36, 40, 0.3) 100%);
 }
-
