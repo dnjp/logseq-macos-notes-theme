@@ -196,6 +196,10 @@ a.open-block-ref-link {
 	color: var(--ls-primary-text-color);
 }
 
+.block-editor {
+	line-height: 1.75;
+}
+
 .block-content {
 	line-height: 1.75;
 }
